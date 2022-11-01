@@ -62,7 +62,7 @@ def main():
 		print("List Problem !")
 		exit()
 
-	ThreadPool = Pool(50)
+	ThreadPool = Pool(20) # Please don't change this "20" !!
 	ThreadPool.map(findandsave, listip)
 
 
