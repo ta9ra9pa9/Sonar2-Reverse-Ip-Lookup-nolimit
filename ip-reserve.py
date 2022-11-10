@@ -21,7 +21,7 @@ class Ipto():
 				Hello , Have fun any Problems or Bugs contact me !! at @ta9ra9pa9
 		"""
 		self.ip = ip
-		self.website = "https://sonar2.pythonforautomation.com/IP-DOMAINS?ip=%s" % ip
+		self.website = "https://sonar2.pythonforautomation.com/ip/%s" % ip
 		self.domains = None
 
 	def __str__(  self ):
